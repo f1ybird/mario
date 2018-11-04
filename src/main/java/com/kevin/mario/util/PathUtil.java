@@ -6,6 +6,11 @@ import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * describe  : 路径工具类
+ * @author : kevin
+ * @date: 2018/11/4 13:17
+ **/
 public class PathUtil {
 
 	public static final String VAR_REGEXP = ":(\\w+)";
@@ -40,7 +45,7 @@ public class PathUtil {
 	}
 
 	public static boolean isSplat(String routePart) {
-		return routePart.equals("*");
+		return "*".equals(routePart);
 	}
 
 	public static List<String> convertRouteToList(String route) {

@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kevin</groupId>
-    <artifactId>mario</artifactId>
+    <artifactId>mario-kevin</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
@@ -24,6 +24,12 @@
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
             <version>3.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.sql2o</groupId>
+            <artifactId>sql2o</artifactId>
+            <version>1.5.4</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
